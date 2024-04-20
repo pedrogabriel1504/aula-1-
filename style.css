@@ -1,10 +1,10 @@
-<!geral>
+/*Geral*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
 }
-
 body{
     background-color: #273436;
     height: 100vh;
@@ -15,7 +15,15 @@ body{
     max-width: 1280px;
     margin: 0 auto;
 }
+.flex{
+    display: flex;
+}
 
+h2.title{
+    color: #fff;
+    font-size: 38px;
+}
+/* cabeçalho */
 header{
     padding: 40px 4%;
 }
@@ -24,13 +32,18 @@ header > .interface{
     display: flex;
     align-items: center;
     justify-content: space-between;
-}
+    }
 
 header a{
-    color: #cce05c;
+    color: #5c5c5c;
     text-decoration: none;
+    display: inline-block;
+    
 }
-
+header a:hover{
+    color: #fff;
+    transform: scale(1.05);
+}
 header nav ul{
     list-style-type: none;
 }
@@ -39,4 +52,86 @@ header nav ul li{
     display: inline-block;
     padding: 0 40px;
     
+    
+    
+}
+/*topo*/
+section.topo-site{
+   padding: 40px 4%;
+}
+section.topo-site .flex{
+    align-items: center;
+    justify-content: center;
+}
+
+.topo-site h1{
+    color: #fff;
+    font-size: 42px;
+    list-style: none;
+    text-align: left;
+}
+
+.topo-site p{
+    color: #c7deac;
+    font-size: 24px;
+    text-align: left;
+    padding: 10px;
+    align-items: center;
+}
+
+.topo-site button{
+    padding: 20px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #c7deac;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    border-spacing: 10px;
+    
+    
+}
+
+.topo-site button:hover{
+    box-shadow: 0px 0px 8px #c7deac;
+}
+/*sobre mim*/
+section.sobre-mim{
+    padding: 350px 4%;
+}
+section.sobre-mim .flex{
+    align-items: center;
+    gap: 50px   ;
+}
+
+.sobre-mim .sobre-img img{
+    border-radius: 30px;
+    
+}
+
+
+.sobre-mim .sobre-txt{
+    color: #fff;
+}
+
+.sobre-mim .sobre-txt h2{
+    font-size: 60px;
+    color: #c7deac;
+}
+.sobre-mim .sobre-txt p{
+    margin: 20px 0;
+    text-align: justify;
+}
+.sobre-mim .sobre-txt .bot-social button{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background-color:#273436 ;
+    font-size: 20px;
+    display: flow-root;
+    border: #c7deac;
+    margin: px;
+    color: #c7deac;
+    
+
 }
