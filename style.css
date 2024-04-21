@@ -20,7 +20,7 @@ body{
 }
 
 h2.title{
-    color: #fff;
+    color: #c7deac;
     font-size: 38px;
 }
 /* cabeçalho */
@@ -35,7 +35,7 @@ header > .interface{
     }
 
 header a{
-    color: #5c5c5c;
+    color: #a19292;
     text-decoration: none;
     display: inline-block;
     
@@ -95,6 +95,11 @@ section.topo-site .flex{
 .topo-site button:hover{
     box-shadow: 0px 0px 8px #c7deac;
 }
+
+.topo-site i{
+    font-size: 450px;
+    color: #c7deac;
+}
 /*sobre mim*/
 section.sobre-mim{
     padding: 350px 4%;
@@ -116,7 +121,7 @@ section.sobre-mim .flex{
 
 .sobre-mim .sobre-txt h2{
     font-size: 60px;
-    color: #c7deac;
+    
 }
 .sobre-mim .sobre-txt p{
     margin: 20px 0;
@@ -126,12 +131,83 @@ section.sobre-mim .flex{
     width: 60px;
     height: 60px;
     border-radius: 30px;
-    background-color:#273436 ;
+    background-color:#c7deac;
     font-size: 20px;
     display: flow-root;
     border: #c7deac;
     margin: px;
-    color: #c7deac;
+    color: #273436;
+    cursor: pointer;
+    margin: 10px;
+    }
+
+    .sobre-mim .sobre-txt .bot-social button :hover{
+        box-shadow: 0px 0px 8px #c7deac;
+    }
+/*Habilidades*/
+section.habilidades{
+    padding: 40px 4%;
+}
+
+
+.habilidades .habilidades-bloco{
+    color: #fff;
+    padding: 40px;
+    display: flow-root;
+    align-items: center;
     
 
 }
+
+.habilidades .habilidades-bloco i{
+    font-size: 60px;
+    color: #c7deac ;
+}
+
+.habilidades .habilidades-bloco h3{
+    font-size: 28px;
+    margin: 13px 0;
+}
+.habilidades .habilidades-bloco p{
+    text-align: left;
+}
+
+/*contatos*/
+section.contatos{
+    padding: 40px 4%;
+
+}
+
+.contatos .redes ul{
+    list-style-type: none;
+
+}
+
+.contatos .redes ul li{
+    padding: 20px;
+}
+
+.contatos .redes button{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background-color:#c7deac;
+    font-size: 30px;
+    display: flow-root;
+    border: #c7deac;
+    margin: 10px;
+    color: #273436;
+    cursor: pointer;
+    
+}
+
+.contatos .redes i :hover{
+    box-shadow: 0px 0px 8px #c7deac;
+}
+
+.contatos .redes ul li p{
+    color: #fff;
+    font-size: 20px;
+}
+
+
